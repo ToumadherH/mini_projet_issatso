@@ -1,8 +1,8 @@
-# 🎓 Système de Gestion du Cursus Universitaire
+#  Système de Gestion du Cursus Universitaire
 
 Une application web Full-Stack moderne permettant de gérer intégralement le cursus des étudiants, les départements, les emplois du temps, les notes, l'assiduité et les stages.
 
-## 🌟 Fonctionnalités
+##  Fonctionnalités
 
 - **Authentification & Rôles** : Connexion sécurisée (JWT) avec des permissions basées sur les rôles (Admin, Chef de Département, Enseignant, Étudiant).
 - **Design Premium** : Interface utilisateur moderne avec Glassmorphism, animations fluides et gestion du Light/Dark Mode natif (sans librairie tierce lourde).
@@ -14,14 +14,14 @@ Une application web Full-Stack moderne permettant de gérer intégralement le cu
 - **Assiduité** : Pointage des présences et gestion des justificatifs.
 - **Stages** : Workflow de demande de stage (Étudiant -> En attente -> Validation par le Chef de département).
 
-## 🛠 Stack Technique
+##  Stack Technique
 
 - **Backend** : Django 5, Django REST Framework, SimpleJWT
 - **Base de Données** : PostgreSQL (ou SQLite par défaut en développement)
 - **Frontend** : React 18, Vite, React Router, Axios, Lucide React (Icônes)
 - **Style** : Vanilla CSS Premium (Variables CSS natives, flexbox/grid, animations)
 
-## 🚀 Installation & Lancement Rapide
+##  Installation & Lancement Rapide
 
 Ce projet contient un script automatisé pour tout lancer en une seule commande sous Linux/macOS.
 
@@ -43,16 +43,16 @@ source venv/bin/activate
 python seed_db.py
 ```
 
-## 🔐 Comptes de Test Disponibles
+##  Comptes de Test Disponibles
 
 Après avoir exécuté le script `seed_db.py`, vous pouvez utiliser ces comptes :
 
 | Rôle | Nom d'utilisateur | Mot de passe | Ce que vous pouvez tester |
 |------|-------------------|--------------|---------------------------|
-| 👑 Admin | `admin` | `admin123` | Création de l'emploi du temps (onglet Schedule) |
-| 👨‍🏫 Professeur | `prof1` | `prof123` | Création de nouveaux cours, choix des classes cibles |
-| 🎓 Étudiant | `etudiant1` | `etud123` | Consultation de son propre emploi du temps et de ses notes |
-| 🏢 Chef Dept | `chef_info` | `chef123` | Visualisation globale des étudiants de son département |
+|  Admin | `admin` | `admin123` | Création de l'emploi du temps (onglet Schedule) |
+|  Professeur | `prof1` | `prof123` | Création de nouveaux cours, choix des classes cibles |
+|  Étudiant | `etudiant1` | `etud123` | Consultation de son propre emploi du temps et de ses notes |
+|  Chef Dept | `chef_info` | `chef123` | Visualisation globale des étudiants de son département |
 
 ## 🏗 Architecture du Projet
 ```text
